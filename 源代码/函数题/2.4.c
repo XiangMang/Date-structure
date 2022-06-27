@@ -27,11 +27,10 @@ int main()
 
 /* 你的代码将被嵌在这里 */
 List Insert( List L, ElementType X ){
-    List pre, tmp;
-    per = L;
-
-    while(pre->Next){
-        if(pre->Next->Data > X) break;
-        else pre = pre->Next;
+    List Pre, Tmp;
+    Pre = L;
+    while(Pre->Next){
+        if(Pre->Next->Data > X) break;
+        else Pre = Pre->Next;
     }
 }
